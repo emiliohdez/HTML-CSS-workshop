@@ -6,24 +6,13 @@
 
 	<link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css"/> <!-- Este es para agregar una hoja de estilos CSS-->
 
+	<!-- Agregando la fuente -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet"> 
+
 	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
 
 	<style type="text/css">
-		* {
-			box-sizing: border-box;
-		}
-		nav{
-			border: 3px solid red;
-		}
-		main{
-			border: 3px solid blue;
-		}
-		section{
-			border: 3px solid green;
-		}
-		div{
-			border: 3px solid purple;
-		}
+		
 	</style>
 
 </head>
@@ -32,7 +21,7 @@
 	<nav>
 		<img src="img/logo.png"/>
 		<ul>
-			<li>intro
+			<li class="active">intro</li>
 			<li>about</li>
 			<li>projects</li>
 			<li>contact</li>
@@ -43,7 +32,7 @@
 		<div>
 			<h1>I'm Emilio</h1>
 			<p>Freelance Web & Mobile UI/UX Designer</p>
-			<button>Hire me</button>
+			<button class="blue-button">Hire me</button>
 		</div>
 		<img src="img/me.png"/>
 	</main>
@@ -53,8 +42,8 @@
 		<div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nu pariatur excepteur sint occaecat.</p>
-			<button>View works</button>
-			<button>DFownload CV</button>
+			<button class="blue-button">View works</button>
+			<button class="blue-button transparent-button">Download CV</button>
 		</div>
 	</section>
 	<section id="afectado" class="yellow">
@@ -62,21 +51,21 @@
 		<div>
 			<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natur.</p>
 
-			<div>
+			<div id="my-services">
 				<div>
-					<img src="#"/>
+					<img src="http://droitthemes.com/wp/mak/wp-content/uploads/2018/10/code_icon.png"/>
 					<h3>UX Research</h3>
 					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
 				</div><div>
-					<img src="#"/>
+					<img src="http://droitthemes.com/wp/mak/wp-content/uploads/2018/10/code_icon.png"/>
 					<h3>Web Development</h3>
 					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
 				</div><div>
-					<img src="#"/>
+					<img src="http://droitthemes.com/wp/mak/wp-content/uploads/2018/10/code_icon.png"/>
 					<h3>App Design</h3>
 					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
 				</div><div>
-					<img src="#"/>
+					<img src="http://droitthemes.com/wp/mak/wp-content/uploads/2018/10/code_icon.png"/>
 					<h3>Web Design</h3>
 					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
 				</div>
@@ -111,7 +100,7 @@
 	<section>
 		<h2>Have Any Project in Mind?</h2>
 		<div>
-			<button>Hire Me</button>
+			<button class="blue-button">Hire Me</button>
 		</div>
 	</section>
 
